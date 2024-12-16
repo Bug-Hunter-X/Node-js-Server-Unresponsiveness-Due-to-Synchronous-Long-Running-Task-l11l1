@@ -1,0 +1,1 @@
+This repository demonstrates a common issue in Node.js applications where a long-running synchronous operation in the request handler causes the server to hang or become unresponsive.  The `server.js` file contains the buggy code, while `serverSolution.js` provides a corrected version using asynchronous operations to prevent blocking the event loop.
